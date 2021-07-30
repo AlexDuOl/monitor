@@ -10,6 +10,10 @@ class Usuario extends BaseModel {
     this.activo = this.getAttribute('activo')
     this.iniciales = this.getAttribute('iniciales')
     this.supervisor = this.getAttribute('supervisor')
+
+
+    this.id = 3841
+    console.log(this.id);
   }
 
   puedeVerFacturacion() {
@@ -22,7 +26,7 @@ class Usuario extends BaseModel {
 
   puedeProgramarServicios() {
     return this.id === 80 || this.id === 365 || this.id === 390 || this.id === 3746 || this.id === 401 || 
-           this.id === 3825 || this.id === 3839
+           this.id === 3825 || this.id === 3839 || this.id === 3841
   }
 
   puedeForzarProgramacionTransferencias() {
@@ -52,6 +56,7 @@ export default Usuario
   ==> Programador de rutas
   390  Gustavo Orozco Vázquez
   3839 Christian Yaeht Cedeño Vargas
+  3841 Juan Carlos Aceves Cárdenas
 
   ==> Monitoristas
   365  Alejandra Mertínes

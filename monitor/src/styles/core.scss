@@ -1,0 +1,84 @@
+@import 'base';
+
+// Some best-practice CSS that's useful for most apps
+// Just remove them if they're not what you want
+html {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 3px;
+  padding: 0px;
+  height: 100%;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.chart {
+  display: block;
+  margin: 0 auto;
+  background-color: #FAFAFA;
+}
+
+.servicio {
+  &:hover {
+    stroke: cyan;
+  }
+}
+
+.sencillo {
+  fill: #16ab39;
+}
+
+.medio {
+  fill: #fbbd08;
+}
+
+.domiciliado {
+  fill: #db2828;
+}
+
+.especial {
+  fill: #6435c9;
+}
+
+.operación {
+  fill: #767676;
+}
+
+.servicio-finalizado {
+  background-color: steelblue;
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid white;
+  padding: 0 !important;
+}
+
+.servicio-por-comenzar {
+  background-color: orange;
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid white;
+  padding: 0 !important;
+}
+
+.servicio-en-ruta {
+  background-color: limegreen;
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid white;
+  padding: 0 !important;
+}
+
+.servicio-programado {
+  background-color: slategrey;
+  width: 20px !important;
+  height: 20px !important;
+  border: 1px solid white;
+  padding: 0 !important;
+}

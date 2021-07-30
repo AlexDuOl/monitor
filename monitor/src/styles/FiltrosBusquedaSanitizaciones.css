@@ -1,0 +1,9 @@
+.FiltrosContainer
+{
+    margin: 0 10px !important;
+    border: solid gray 1px;
+    border-radius: 10px;
+}
+.botonMargen{
+    margin: 1rem 0;
+}

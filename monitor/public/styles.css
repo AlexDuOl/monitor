@@ -1,0 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+#root {
+    width: 80% !important;
+    padding: 0 10px 0 10px!important;
+    text-align: center!important;
+}

@@ -10,10 +10,6 @@ class Usuario extends BaseModel {
     this.activo = this.getAttribute('activo')
     this.iniciales = this.getAttribute('iniciales')
     this.supervisor = this.getAttribute('supervisor')
-
-
-    this.id = 3841
-    console.log(this.id);
   }
 
   puedeVerFacturacion() {
@@ -26,7 +22,7 @@ class Usuario extends BaseModel {
 
   puedeProgramarServicios() {
     return this.id === 80 || this.id === 365 || this.id === 390 || this.id === 3746 || this.id === 401 || 
-           this.id === 3825 || this.id === 3839 || this.id === 3841
+           this.id === 3825 || this.id === 3839 || this.id === 3841 || this.id === 3840
   }
 
   puedeForzarProgramacionTransferencias() {
@@ -59,7 +55,7 @@ export default Usuario
   3841 Juan Carlos Aceves Cárdenas
 
   ==> Monitoristas
-  365  Alejandra Mertínes
+  365  Alejandra Martínez
   3825 Gabriela Elizabeth Martínez García
-
+  3840 Judith Herrera Rosales 
 * */

@@ -1,5 +1,5 @@
-export const API_ADDRESS = 'https://api.sumaenlinea.mx'
-//export const API_ADDRESS = 'http://tapi.sumaenlinea.mx'
+//export const API_ADDRESS = 'https://api.sumaenlinea.mx'
+export const API_ADDRESS = 'http://tapi.sumaenlinea.mx'
 
 export const ENDPOINT_BITACORAS = `${API_ADDRESS}/bitacoras`
 export const ENDPOINT_OPERADORES = `${API_ADDRESS}/operadores`
